@@ -1,0 +1,154 @@
+
+.m-padded-mini{
+    padding:0.2em !important;
+}
+.m-padded-tiny{
+    padding:0.3em !important;
+}
+
+/*上下之间的宽度小一点*/
+.m-padded-tb-mini{
+    /*
+    一个em是14个像素
+    !important是一个优先级，如果不加semantic ui 并不会使用
+     */
+    padding-top:0.2em !important;
+    padding-bottom:0.2em !important;
+}
+.m-padded-tb-small{
+
+    padding-top:1em !important;
+    padding-bottom:1em !important;
+}
+.m-padded-tb-large{
+
+    padding-top:2em !important;
+    padding-bottom:2em !important;
+}
+.m-padded-tb-big{
+
+    padding-top:3em !important;
+    padding-bottom:3em !important;
+}
+.m-padded-tb-huge{
+
+    padding-top:4em !important;
+    padding-bottom:4em !important;
+}
+.m-padded-tb-massive{
+    padding-top:5em !important;
+    padding-bottom:5em !important;
+}
+.m-padded-lr-massive-responsive{
+    padding-left: 4em!important;
+    padding-right: 4em!important;
+}
+/*--------margin-----------*/
+.m-margin-tb-tiny{
+    margin-top: 0.3em!important;
+    margin-bottom: 0.3em!important;
+}
+.m-margin-tb-small{
+    margin-top: 0.5em!important;
+    margin-bottom: 0.5em!important;
+}
+.m-margin-tb-large{
+    margin-top: 2em!important;
+    margin-bottom: 2em!important;
+}
+.m-margin-bttom-mini{
+    margin-bottom: 0.2em!important;
+}
+.m-margin-bttom-small{
+    margin-bottom: 0.5em!important;
+}
+/*---------text--------*/
+/*自定义的文字样式，包含了下面三个形式：字大小，间距以及行间距*/
+.m-text{
+    font-width: 300 !important;
+    letter-spacing: 1px!important;
+    line-height: 1.8;
+}
+.m-text-thin{
+    font-width: 300 !important;
+}
+.m-text-spaced{
+    letter-spacing: 1px!important;
+}
+.m-text-lined{
+    line-height: 1.8;
+}
+
+/*透明度设置*/
+.m-opacity-mini{
+    opacity: 0.8!important;
+}
+
+/* 显示 */
+.m-inline-nlock{
+    display: inline-block !important;
+}
+/*container*/
+.m-container{
+    max-width: 72em !important;
+    margin: auto !important;
+}
+.m-container-small{
+    max-width: 60em !important;
+    margin: auto !important;
+}
+
+/*color*/
+.m-color-black{
+    color: black;
+}
+/*position*/
+.m-right-top{
+    position: absolute;
+    top:0;
+    right: 0;
+    z-index: 10 !important;
+}
+
+.m-right-bottom{
+    position: fixed;
+    bottom:0;
+    right: 0;
+    z-index: 10 !important;
+}
+
+
+/*shadow */
+.m-shadow-small{
+    -webkit-box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
+}
+.m-mobile-show{
+    display: none!important;
+}
+.m-fixed{
+
+}
+
+
+/*当屏幕最大宽度小于768像素时*/
+@media screen and (max-width: 768px){
+    .m-mobile-hide{
+        display: none !important;
+    }
+    .m-mobile-show{
+        display: block!important;
+    }
+    .m-padded-lr-massive-responsive{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .m-mobile-lr-clear{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .m-mobile-wide{
+        width: 100%!important;
+    }
+
+}
